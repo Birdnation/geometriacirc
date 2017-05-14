@@ -41,7 +41,7 @@ while True:
         print ("El diametro del circulo de radio: " + str(radio) + "(cm) es: " + str(diametro) + "(cm)")
         print ("")
         input ("Presiona una tecla para continuar...")
-        os.system("cls") #limpiar la pantalla //nota si os es diferente de windows use crear en vez de cls
+        os.system("cls") #limpiar la pantalla //nota si os es diferente de windows use clear en vez de cls
     #Calculo perimetro
     elif opcionMenu == "2":
         perimetro = 2 * pi * radio
